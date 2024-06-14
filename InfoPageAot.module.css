@@ -1,0 +1,106 @@
+.div1 {
+border: 3px solid rgba(0, 0, 0, 0.264);
+border-radius: 10px;
+
+padding: 10px;
+margin: 10px;
+background-color: rgba(23, 3, 3, 0.409);
+
+
+
+}
+
+img {
+
+  transition: 0.5s;
+    width: 40%;
+    border-radius: 10px;
+
+   
+}
+
+.div2 {
+   
+font-family: 'Courier New', Courier, monospace;
+padding: 10px;
+
+text-align: center;
+font-weight: 700;
+
+
+}
+
+.div3 {
+    
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    text-align: justify;
+    width: 47%;
+    font-weight: 700;
+    
+    
+    }
+.div4 {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.div5 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    text-align: justify;
+    width: 47%;
+    font-weight: 700;
+    font-size: 15px;
+
+
+}
+
+.div10 {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+width: 100%;
+
+
+
+
+
+
+}
+
+img:hover {
+filter: brightness(120%);
+cursor: url(../../components/navBar/wot_link.cur), pointer;
+
+}
+
+
+
+.div11 {
+
+font-family: 'Courier New', Courier, monospace;
+font-weight: 700;
+
+justify-content: center;
+}
+
+
+@media  (max-width:900px) {
+    .div10 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        
+        
+        
+        
+        
+        }
+
+
+
+    
+}

@@ -1,0 +1,72 @@
+.header {
+    width: 100%;
+    min-height: 60px;
+    
+}
+body{
+
+    background-image: url(Menu.jpg) ;
+  
+    cursor: url(../navBar/wot_arrow.cur),pointer;
+
+    background-size: 100% ;
+    
+
+}
+
+
+@media (max-width:380px )  {
+     body {
+        background-size: 200vw 251vw;
+       
+
+
+     }
+}
+
+@media (max-width:350px )  {
+    body {
+       background-size: 400vw 400vw;
+     
+
+
+    }
+}
+
+
+@media (max-width:400px )  {
+    body {
+       background-size: 300vw 400vw;
+     
+
+
+    }
+}
+
+@media (max-width:450px )  {
+    body {
+       background-size: 200vw 303vw;
+     
+
+
+    }
+}
+
+@media (min-width:750px ) and (max-width:900px)  {
+    body {
+        background-size: 100vw  147vw;
+     
+
+
+    }
+}
+
+
+@media  (min-width:100px) and (max-width:1500px) and (orientation: landscape) {
+    body {
+        background-size: 100vw  100vw;
+     
+
+
+    }
+}
